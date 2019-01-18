@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="636cc96fadfd455295dae8c7dc20ea36" Name="Diagram1">
+        <EntityTypeShape EntityType="StundentTestModel.Employee" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StundentTestModel.Item" Width="1.5" PointX="5.875" PointY="1.125" />
+        <EntityTypeShape EntityType="StundentTestModel.Order" Width="1.5" PointX="2.875" PointY="4.125" />
+        <EntityTypeShape EntityType="StundentTestModel.OrderItem" Width="1.5" PointX="8.125" PointY="2.625" />
+        <AssociationConnector Association="StundentTestModel.FK_OrderItems_Items_ItemID" />
+        <AssociationConnector Association="StundentTestModel.FK_OrderItems_Orders_OrderID" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
